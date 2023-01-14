@@ -1,8 +1,8 @@
 
 /* Your CSS Code here. */
-.container{
+.holder{
 
-	background:darkblue;
+	/*background:darkblue;
 	height:400px;
 	 display:flex;
 	flex-direction:row;
@@ -12,12 +12,23 @@
 	flex-direction:row;
 	flex-wrap:wrap;
 	justify-content:center;
-	align-item:center;
+	align-item:center;*/
+	border: 2px solid red;
+	 
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
 }
 
-.container.item{
-	width:25%;
+.holder.item{
+	/*width:25%;
 	margin:10px;
-	background:lightcoral;
+	background:lightcoral;*/
+	width: 200px;
+    height: 200px;
+  
+    border: 2px solid black;
+	
 	
 }
